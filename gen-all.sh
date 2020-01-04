@@ -1,4 +1,5 @@
 #!/bin/bash
+# 生成thrift依赖gen-go or gen-py files
 for f in `ls src|grep -P ".*thrift" `
 do
     echo $f
